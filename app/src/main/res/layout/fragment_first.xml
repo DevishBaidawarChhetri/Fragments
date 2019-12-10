@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:hint="Enter first Number"
+        android:inputType="number"
         android:textSize="25sp" />
 
     <EditText
@@ -21,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:hint="Enter second Number"
+        android:inputType="number"
         android:textSize="25sp" />
 
     <Button
