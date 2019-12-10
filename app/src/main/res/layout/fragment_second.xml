@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#EE3661"
+    tools:context=".fragments.SecondFragment">
 
-    <Button
-        android:id="@+id/btnFragments"
+    <EditText
+        android:id="@+id/etRadius"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
-        android:text="Load First Fragment"
+        android:hint="Enter radius"
         android:textSize="25sp" />
 
-    <LinearLayout
-        android:id="@+id/fragmentLayout"
+
+    <Button
+        android:id="@+id/btnCalculate"
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="wrap_content">
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Calculate"
+        android:textSize="25sp" />
 
 </LinearLayout>
